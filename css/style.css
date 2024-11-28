@@ -1,0 +1,42 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-image: url("../FOTO/background-unplash.jpg");
+  background-attachment: fixed; //membuat background ikut scroll gak diam cuman perlu css
+  background-size: cover; //untuk background memenuhi gambar / full
+  //color: #eaeaea;
+  background-color: #eaeaea;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  width: 200px;
+  border: 5px solid #666;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: blanchedalmond;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2::before,
+h2::after {
+  background-color: darkblue;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h2::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+h2::after {
+  margin-right: -50%;
+}
+section {
+  padding-top: 7rem;
+}
