@@ -8,11 +8,11 @@
   overflow: hidden;
 }
 
-.jumbotron img {
+/* .jumbotron img {
   width: 200px;
   border: 5px solid #666;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .jumbotron h1,
 .jumbotron p {
@@ -39,4 +39,11 @@ h2::after {
 }
 section {
   padding-top: 7rem;
+}
+.gallery-img {
+  width: 100%;
+}
+/* cari gallery clas row dan * adalah apapun persis setelah row */
+#gallery .row > * {
+  padding: 0;
 }
